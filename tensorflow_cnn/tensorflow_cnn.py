@@ -250,7 +250,7 @@ def crack_captcha(captcha_image):
 if __name__ == '__main__':
 
     #  预测
-    #  text, image = gen_captcha_text_and_image()
+    #  text, image = gen_captcha_text_and_image(char_set=number+ALPHABET)
     #  image = convert2gray(image)  # 生成一张新图
     #  image = image.flatten() / 255  # 将图片一维化
     #  predict_text = crack_captcha(image)  # 导入模型识别
